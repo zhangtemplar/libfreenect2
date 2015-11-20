@@ -8,7 +8,7 @@ FIND_PATH(TurboJPEG_INCLUDE_DIRS
   turbojpeg.h
   DOC "Found TurboJPEG include directory"
   PATHS
-    "${DEPENDS_DIR}/libjpeg_turbo"
+    "${DEPENDS_DIR}/libjpeg-turbo"
     "${DEPENDS_DIR}/libjpeg-turbo64"
     "/usr/local/opt/jpeg-turbo" # homebrew
     "/opt/local" # macports
